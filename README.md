@@ -1,44 +1,59 @@
 # mlp-breast-cancer-classification
 Breast cancer classification using Multilayer Perceptron (MLP)
 
-# MLP Breast Cancer Classification
+# Classificação de Câncer de Mama com MLP
 
-Projeto de classificação de câncer de mama utilizando uma Rede Neural Multilayer Perceptron (MLP).
+Projeto de machine learning para classificação de câncer de mama utilizando uma Rede Neural Multilayer Perceptron (MLP) e o dataset Breast Cancer Wisconsin do UCI Machine Learning Repository.
 
-## Objetivo
+## Funcionalidades
 
-Desenvolver um modelo de machine learning capaz de classificar tumores como benignos ou malignos com base em características extraídas de exames médicos.
+- Pré-processamento dos dados
+- Análise exploratória
+- Normalização dos dados
+- Treinamento do modelo MLP
+- Avaliação de acurácia
+- Comparação de desempenho com o algoritmo KNN
 
-## Tecnologias Utilizadas
+## Tecnologias
 
 - Python
-- Jupyter Notebook
-- Scikit-learn
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-## Dataset
+## Como Executar
 
-O projeto utiliza o Breast Cancer Wisconsin Dataset disponível no UCI Machine Learning Repository.
+Clone o repositório:
 
-## Etapas do Projeto
+```bash
+git clone https://github.com/AneDesiree/mlp-breast-cancer-classification.git
+```
 
-- Carregamento e análise dos dados
-- Pré-processamento
-- Separação entre treino e teste
-- Treinamento da rede neural MLP
-- Avaliação do desempenho do modelo
-- Análise de métricas de classificação
+Instale as dependências:
 
-## Algoritmo Utilizado
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
-- MLPClassifier (Multilayer Perceptron)
+Execute o Jupyter Notebook:
 
-## Resultados
+```bash
+jupyter notebook
+```
 
-O modelo foi treinado para identificar padrões nos dados e realizar a classificação dos tumores com alta taxa de acerto.
+Abra o arquivo:
 
-## Autor
+```bash
+breast_cancer_mlp.ipynb
+```
 
-Ane
+## Objetivo
+
+O objetivo deste projeto é classificar tumores como malignos ou benignos utilizando uma rede neural MLP e comparar seu desempenho com o algoritmo KNN.
+
+## Repositório
+
+https://github.com/AneDesiree/mlp-breast-cancer-classification
